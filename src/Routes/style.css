@@ -1,0 +1,301 @@
+.by-price {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#by-price-text {
+  /* border: 1px solid red; */
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.by-price-hr {
+  height: 0.7rem;
+  background-color: orange;
+  width: 6rem;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: -1.2rem;
+}
+.by-brand-hr {
+  height: 0.7rem;
+  background-color: orange;
+  width: 6rem;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: -3.5rem;
+}
+/* component-main-block*/
+
+.component-main {
+  margin: 2rem 1rem;
+  width: 97.7%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2rem 0rem;
+  box-shadow: 1px 1px 12px rgb(224, 226, 228);
+}
+.component-main-inner h2 {
+  margin-left: 3rem;
+}
+.component-inner-products {
+  width: 100%;
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+.component-inner-products-block {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  gap: 1rem;
+  padding: 1.5rem 0rem;
+  border: 1px solid rgb(230, 229, 229);
+  border-radius: 10px;
+}
+.component-block-img {
+  width: 12rem;
+  height: 14rem;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+.compo-inner-block-text {
+  padding: 0rem 1rem;
+  height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 6rem;
+  text-align: center;
+}
+.compo-inner-block-text p {
+  /* color: red; */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.compo-inner-block-review-text {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  width: 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.compo-inner-block-review-text h3 {
+  background-color: green;
+  color: white;
+  width: 2.5rem;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.compo-inner-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+  /* border: 1px solid red; */
+}
+.component-inner-products-block:hover {
+  box-shadow: 1px 1px 12px rgb(224, 226, 228);
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* IT-accessorise-img */
+.IT-accessorise-img {
+  width: 11rem;
+  height: 6.5rem;
+}
+
+/* Washing-Machines-img */
+.Washing-Machines-img {
+  width: 12rem;
+  height: 20rem;
+}
+
+/* Refrigerators-img */
+.Refrigerators-img {
+  width: 12rem;
+  height: 25rem;
+}
+
+/* cloths image */
+.cloths-block-img {
+  /* width: 11rem;
+  height: 14rem;
+  aspect-ratio: 5 / 9;
+  object-fit: cover;
+  overflow: hidden; */
+
+  width: 11rem;
+  /* height: 14rem; */
+  aspect-ratio: 3 / 5;
+  overflow: hidden;
+  /* object-fit: cover; */
+}
+
+.women-cloths-img {
+  width: 11rem;
+  /* height: 14rem; */
+  aspect-ratio: 3 / 6;
+  object-fit: cover;
+}
+
+/* dynamic compo */
+.dynamic-main-block {
+  background-color: white;
+}
+.dynamic-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+.dynamic-left-block {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 100%;
+  border: 1px solid red;
+}
+.dynamic-left-block-1 {
+  width: 15%;
+}
+.dynamic-left-block-2 {
+  width: 85%;
+  text-align: center;
+}
+.left-block-img {
+  width: 100%;
+
+  border: 1px solid rgb(0, 255, 162);
+}
+.left-block-img img {
+  width: 19rem;
+  object-fit: cover;
+}
+.left-block-btn {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+#add-cart {
+  font-size: 1rem;
+  width: 50%;
+  height: 3rem;
+  background-color: #ff9f00;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#buy-now {
+  font-size: 1rem;
+  width: 50%;
+  height: 3rem;
+  background-color: #fb641b;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* dynamic right container */
+.dynamic-right-block {
+  width: 60%;
+  height: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right-block-name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.689);
+}
+.dynamic-right-block-review {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  /* width: 10rem; */
+  /* justify-content: space-between; */
+  gap: 0.7rem;
+  align-items: center;
+}
+.dynamic-right-block-review h3 {
+  background-color: green;
+  color: white;
+  width: 2.5rem;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.dynamic-right-block-price {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.dynamic-right-block-price span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: rgb(3, 161, 3);
+}
+.product-dec {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+.dynamic-right-block-offers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.dynamic-right-block-offers h4 {
+  font-size: 1.2rem;
+}
+
+.offer-block-1 p,
+.offer-block-2 p,
+.offer-block-3 p,
+.offer-block-4 p {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.offer-block-1 p span,
+.offer-block-2 p span,
+.offer-block-3 p span,
+.offer-block-4 p span {
+  color: rgb(22, 97, 218);
+}
+
+.dynamic-right-block-other {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.sellerinfo-right {
+  display: flex;
+  flex-direction: column;
+}
+.sellerinfo-right ul li {
+  margin: 1rem;
+}

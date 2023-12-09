@@ -1,0 +1,39 @@
+.header-items {
+  width: 100%;
+  height: 4rem;
+  box-shadow: 1px 1px 12px rgb(224, 226, 228);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  /* border: 1px solid red; */
+}
+.header-items h2 {
+  color: red;
+}
+.header-items h2 span {
+  color: black;
+  font-size: 2rem;
+}
+
+.search {
+  background-color: rgba(206, 224, 219, 0.423);
+  height: 2.5rem;
+  width: 40rem;
+  border-radius: 8px;
+  border: 0px;
+}
+.login-top,
+.cart-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-top svg,
+.cart-top svg {
+  height: 2rem;
+  width: 2rem;
+}
