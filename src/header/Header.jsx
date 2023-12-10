@@ -1,6 +1,5 @@
 import React from "react";
-import Login from "./Login";
-import Cart from "./Cart";
+
 import "./headaer.css";
 import { Link, useNavigate } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
