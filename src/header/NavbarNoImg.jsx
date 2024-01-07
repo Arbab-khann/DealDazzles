@@ -2,13 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
-// import mobile from "../store/image/mobile.webp";
-// import shoes from "../store/image/shoes.jpg";
-// import watch from "../store/image/watch.jpg";
-// import cloths from "../store/image/cloths.webp";
-// import electronics from "../store/image/electronics.webp";
-// import appliances from "../store/image/Appliances.webp";
-// import toy from "../store/image/toy.webp";
+
 
 function NavbarNoImg() {
   return (

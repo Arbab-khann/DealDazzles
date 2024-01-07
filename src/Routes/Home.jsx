@@ -29,12 +29,13 @@ function Home() {
             {homedata
               .filter((data) => data.bestof === "mobileallbest")
               .map((item, index) => {
-                console.log(item.id);
+                const data = Object.values(item.image);
+                console.log(item.image);
                 return (
                   <div key={index} className="best-block-block">
                     <NavLink to={`/details/${item.id}`}>
                       <div className="best-block-block-img">
-                        <img id="best-block-img" src={item.image} alt="img" />
+                        <img id="best-block-img" src={data[0]} alt="img" />
                       </div>
 
                       <div className="best-block-text">
@@ -63,13 +64,14 @@ function Home() {
             {homedata
               .filter((data) => data.bestof === "itallbest")
               .map((item, index) => {
+                const data = Object.values(item.image);
                 return (
                   <div key={index} className="best-block-block">
                     <NavLink to={`/details/${item.id}`}>
                       <div className="best-block-block-img">
                         <img
                           className="IT-accessorise-img"
-                          src={item.image}
+                          src={data[0]}
                           alt="img"
                         />
                       </div>

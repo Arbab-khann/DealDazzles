@@ -7,6 +7,7 @@ import NavbarNoImg from "../header/NavbarNoImg";
 import { FaStar } from "react-icons/fa";
 import { BiSolidPurchaseTag } from "react-icons/bi";
 import { BsCalendarCheck } from "react-icons/bs";
+import LeftSideImage from "./DynamicFolder/LeftSideImage";
 
 function Dynamiccompo() {
   const [dynamicData] = useContext(Storedata);
@@ -16,22 +17,14 @@ function Dynamiccompo() {
     <div className="dynamic-main-block">
       <Header />
       <NavbarNoImg />
+
       {dynamicData
         .filter((data) => data.id === id)
         .map((item, index) => {
           return (
             <div className="dynamic-container">
-              <div className="dynamic-left-block">
-                <div className="dynamic-left-block-1"> s-img</div>
-                <div className="dynamic-left-block-2">
-                  <div className="left-block-img">
-                    <img src={item.image} alt="pic" />
-                  </div>
-                  <div className="left-block-btn">
-                    <button id="add-cart">Add to cart</button>
-                    <button id="buy-now">Buy Now</button>
-                  </div>
-                </div>
+              <div className="dynamic-left-main-block">
+                <LeftSideImage value={item.image} />
               </div>
               <div className="dynamic-right-block">
                 <p className="right-block-name">{item.name}</p>

@@ -31,7 +31,14 @@ function Store(props) {
     {
       id: "3",
       name: "POCO C55 (Forest Green, 128 GB) ",
-      image: "https://i.postimg.cc/XYbzNPcF/POCO-C55-Forest-Green-128-GB.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/6/f/-original-imagnb6nvnqz7hqq.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/n/q/-original-imagnb6npf9gmjzq.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/u/e/-original-imagnb6nw6gmqzxe.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/7/w/k/-original-imagnb6na9tyebbg.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/m/t/p/-original-imagnb6nhzjt3fuj.jpeg?q=70",
+      },
       price: "7,999",
       cross: "13,999",
       stars: 4.2,
@@ -104,8 +111,15 @@ function Store(props) {
     {
       id: "9",
       name: "realme 11x 5G (Purple Dawn, 128 GB)",
-      image:
-        "https://i.postimg.cc/4yFfDFLH/realme-11x-5-G-Purple-Dawn-128-GB.webp",
+
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/e/q/g/-original-imagtqqd4vcdzqdg.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/e/x/p/-original-imagtqqds9nzjhaz.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/j/7/-original-imagtqqdzsbzybr5.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/k/u/-original-imagtqqddayaekur.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/p/i/-original-imagtqqddy77nsq2.jpeg?q=70",
+      },
       price: "14,999",
       cross: "16,999",
       stars: 4.4,
@@ -118,8 +132,14 @@ function Store(props) {
     {
       id: "10",
       name: "vivo T2x 5G (Aurora Gold, 128 GB) ",
-      image:
-        "https://i.postimg.cc/Jn5vHDj1/vivo-T2x-5-G-Aurora-Gold-128-GB.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/s/x/-original-imagzjhwaaewgj8r.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/j/x/-original-imagzjhwyujd6mzy.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/7/4/-original-imagzjhwge3gzsmb.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/v/p/q/-original-imagzjhwkgvefqrm.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/p/i/-original-imagtqqddy77nsq2.jpeg?q=70",
+      },
       price: "12,999",
       cross: "18,999",
       stars: 4.2,
@@ -145,8 +165,15 @@ function Store(props) {
     {
       id: "12",
       name: "OnePlus Nord CE 2 Lite 5G (Black Dusk, 128 GB)",
-      image:
-        "https://i.postimg.cc/85dYqJC2/One-Plus-Nord-CE-2-Lite-5-G-Black-Dusk-128-GB.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/2/p/8/-original-imagg2a4rmk94gay.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/e/h/-original-imagg2a49gm7qx5c.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/i/e/-original-imagm27ghg9hz8zw.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/v/3/-original-imagg2a4t7jhf34p.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/u/i/o/-original-imagg2a4nuq8yjmf.jpeg?q=70",
+      },
+
       price: "16,971",
       cross: "19,999",
       stars: 4.6,
@@ -220,8 +247,15 @@ function Store(props) {
     {
       id: "18",
       name: "APPLE iPhone 14 (Purple, 128 GB)",
-      image:
-        "https://i.postimg.cc/PrxvXyV2/APPLE-i-Phone-14-Purple-128-GB.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/u/f/-original-imaghxa5hvapbfds.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/m/2/-original-imaghxcp4sfjxhva.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/i/7/-original-imaguypzzhbzm5an.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/1/d/y/-original-imaghxcpvtta2hzs.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/b/i/-original-imaghxcptg5mdycw.jpeg?q=70",
+      },
+
       price: "61,999",
       cross: "69,999",
       stars: 4.6,
@@ -270,14 +304,21 @@ function Store(props) {
     {
       id: "22",
       name: "realme 11x 5G (Purple Dawn, 128 GB)",
-      image:
-        "https://i.postimg.cc/4yFfDFLH/realme-11x-5-G-Purple-Dawn-128-GB.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/u/f/-original-imaghxa5hvapbfds.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/m/2/-original-imaghxcp4sfjxhva.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/i/7/-original-imaguypzzhbzm5an.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/1/d/y/-original-imaghxcpvtta2hzs.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/b/i/-original-imaghxcptg5mdycw.jpeg?q=70",
+      },
+
       price: "14,999",
       cross: "16,999",
       stars: 4.4,
       review: "80,436",
       type: "realme",
-      bestof: "mobileallbest",
+
       off: "12",
     },
 
@@ -336,14 +377,22 @@ function Store(props) {
     {
       id: "27",
       name: " SAMSUNG Galaxy A23 5G (Light Blue, 128 GB)  ",
-      image:
-        "https://i.postimg.cc/mgMhwDPx/SAMSUNG-Galaxy-A23-5-G-Light-Blue-128-GB.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/e/d/r/-original-imagmym54wrhzgpn.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/a/2/-original-imagmym5myfw4dpu.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/o/p/-original-imagmym5ffugfert.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/9/y/f/-original-imagmym58bzdw6t8.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/t/s/-original-imagmym5rgsaaeau.jpeg?q=70",
+      },
+
       price: "21,999",
       cross: "28,999",
       stars: 4.1,
       review: "1,600",
       type: "samsung",
       off: "25",
+      bestof: "mobileallbest",
     },
     {
       id: "28",
@@ -584,8 +633,14 @@ function Store(props) {
     {
       id: "47",
       name: "WACOM CTL-6100WL/K0-CX INTUOS SMALL 5.3 x 8.5 inch Graphics Tablet(Black, Connectivity-Bluetooth, USB)",
-      image:
-        "https://i.postimg.cc/mk9CfFW3/intuos-small-medium-no-ctl-6100wl-k0-cx-wacom-original-imaf6jy4d3afk3g3.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/jiulk7k0/graphics-tablet/2/c/x/intuos-small-medium-no-ctl-6100wl-k0-cx-wacom-original-imaf6jy4d3afk3g3.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/jiulk7k0/graphics-tablet/2/c/x/intuos-small-medium-no-ctl-6100wl-k0-cx-wacom-original-imaf6jy4zf6s4vfu.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/jiulk7k0/graphics-tablet/2/c/x/intuos-small-medium-no-ctl-6100wl-k0-cx-wacom-original-imaf6jy4geaeqfyc.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/jiulk7k0/graphics-tablet/2/c/x/intuos-small-medium-no-ctl-6100wl-k0-cx-wacom-original-imaf6jy4cyzhjyte.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/jiulk7k0/graphics-tablet/2/c/x/intuos-small-medium-no-ctl-6100wl-k0-cx-wacom-original-imaf6jy4kz98sku5.jpeg?q=70",
+      },
       price: "11,999",
       cross: "16,599",
       stars: 4.3,
@@ -624,8 +679,15 @@ function Store(props) {
     {
       id: "50",
       name: "Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 11300H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/120 Hz) 15IHU6 Gaming Laptop  (15.6 Inch, Shadow Black, 2.25 kg)",
-      image:
-        "https://i.postimg.cc/MKzM6GRY/Lenovo-Idea-Pad-Gaming-3-Intel-Core-i5-11th-Gen-11300-H.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/n/n/q/-original-imagu3kmvtfdy5hk.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/1/y/-original-imagu7n9kya6nkp6.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/l/f/m/gaming-3-gaming-laptop-lenovo-original-imaghtkrz5zzrvkh.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/i/b/a/-original-imagw5u3g22knnqr.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/l/d/f/gaming-3-gaming-laptop-lenovo-original-imaghtkr8py2usjm.jpeg?q=70",
+      },
+
       price: "45,999",
       cross: "67,699",
       stars: 4.3,
@@ -649,8 +711,15 @@ function Store(props) {
     {
       id: "52",
       name: "ASUS Vivobook Pro 15 For Creator, Ryzen 5 Hexa Core 5600HS - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050) M6500QF-HN521W Gaming Laptop  (15.6 Inch, Quiet Blue, 1.80 Kg)",
-      image:
-        "https://i.postimg.cc/s2C1LDVS/ASUS-Vivobook-Pro-15-For-Creator-Ryzen-5-Hexa-Core-5600-HS.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/e/k/d/asus-vivobook-pro-15-creator-laptop-asus-original-imagvggwgnu3b7kz.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/2/e/s/asus-vivobook-pro-15-creator-laptop-asus-original-imagvggwbb3gwwkd.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/q/p/k/asus-vivobook-pro-15-creator-laptop-asus-original-imagvggwrqhxgkhu.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/u/y/f/asus-vivobook-pro-15-creator-laptop-asus-original-imagvggwjfh9hkt3.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/l/b/y/asus-vivobook-pro-15-creator-laptop-asus-original-imagvggwzshggpfq.jpeg?q=70",
+      },
+
       price: "49,999",
       cross: "71,699",
       stars: 4.3,
@@ -1028,8 +1097,15 @@ function Store(props) {
     {
       id: "80",
       name: "Mi 5A 108 cm (43 inch) Full HD LED Smart Android TV with Dolby Audio (2022 Model)",
-      image:
-        "https://i.postimg.cc/wj1FxFYH/Mi-5-A-108-cm-43-inch-Full-HD-LED-Smart-Android-TV-with-Dolby-Audio-2022-Model.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/television/a/p/z/-original-imagt86krs3tu9zh.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/television/y/f/r/l43m7-eain-mi-original-imagdrtn9rp8vkgj.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/television/x/h/k/l43m7-eain-mi-original-imagdrtnwqeunchj.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/television/g/x/e/l43m7-eain-mi-original-imagdrtnfmrjrcrt.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/television/5/z/g/l43m7-eain-mi-original-imagdrtnxt8g8n5r.jpeg?q=70",
+      },
+
       price: "22,999",
       cross: "35,999",
       stars: 4.7,
@@ -1051,8 +1127,15 @@ function Store(props) {
     {
       id: "82",
       name: "SAMSUNG Crystal Vision 4K iSmart with Voice Assistant 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV 2023 Edition with Video Calling & IOT Sensors for Light & Camera  (UA43CUE70AKLXL)",
-      image:
-        "https://i.postimg.cc/zfsRwSQC/SAMSUNG-Crystal-Vision-4-K-i-Smart-with-Voice-Assistant-108-cm-43-inch-Ultra-HD-4-K-LED-Smart-Tizen.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/television/j/2/j/-original-imagtq4hqqt37tgx.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/xif0q/television/k/h/g/-original-imags2ygswqxzuhu.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/xif0q/television/o/d/v/-original-imagu2h6fzgheg4a.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/xif0q/television/c/x/q/ua43cue70aklxl-samsung-original-imagrudzfmqsffca.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/xif0q/television/x/w/n/ua43cue70aklxl-samsung-original-imagrudz6rvqezke.jpeg?q=70",
+      },
+
       price: "32,999",
       cross: "52,999",
       stars: 4.4,
@@ -1074,8 +1157,14 @@ function Store(props) {
     {
       id: "84",
       name: "SONY Bravia 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2022 Edition  (KD - 43X74K)",
-      image:
-        "https://i.postimg.cc/0yCQZVdv/sony-original-imagef3zkuszrfgh.webp",
+      image: {
+        img1: "https://rukminim2.flixcart.com/image/416/416/xif0q/television/6/g/p/-original-imagvgcjagmhmxfz.jpeg?q=70",
+
+        img2: "https://rukminim2.flixcart.com/image/416/416/l3929ow0/television/o/s/b/kd-43x75k-in5-sony-original-imagef42anpamkbv.jpeg?q=70",
+        img3: "https://rukminim2.flixcart.com/image/416/416/l3929ow0/television/o/s/b/kd-43x75k-in5-sony-original-imagef42anpamkbv.jpeg?q=70",
+        img4: "https://rukminim2.flixcart.com/image/416/416/l3bx5e80/television/g/g/h/-original-imageh37qwmnbzh4.jpeg?q=70",
+        img5: "https://rukminim2.flixcart.com/image/416/416/l3929ow0/television/f/2/f/kd-32w830k-in5-sony-original-imagef45dghjhqyg.jpeg?q=70",
+      },
       price: "34,499",
       cross: "59,699",
       stars: 4.6,
@@ -1891,85 +1980,3 @@ function Store(props) {
 }
 
 export default Store;
-
-// for test dynamic compo
-// function Store(props) {
-//   const [data, setdata] = useState([
-//     {
-//       id: "1",
-//       name: "realme 11 Pro 5G (Oasis Green, 128 GB)",
-//       image:
-//         "https://i.postimg.cc/sggtMdPt/realme-11-Pro-5-G-Oasis-Green-128-GB.webp",
-//       price: "23,999",
-//       cross: "25,999",
-//       stars: 4.6,
-//       review: "69,403",
-//       bestof: "mobileallbest",
-//     },
-//     {
-//       id: "2",
-//       name: "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 256 GB)  ",
-//       image:
-//         "https://i.postimg.cc/t4KPJ68w/One-Plus-Nord-CE-3-Lite-5-G-Pastel-Lime-256-GB.webp",
-//       price: "21,899",
-//       cross: "24,999",
-//       stars: 4,
-//       review: "24,539",
-//       bestof: "mobileallbest",
-//     },
-//     {
-//       id: "3",
-//       name: "OPPO Reno10 5G (Silvery Grey, 256 GB)  ",
-//       image:
-//         "https://i.postimg.cc/dDMk3Pxd/OPPO-Reno10-5-G-Silvery-Grey-256-GB.webp",
-//       price: "32,999",
-//       cross: "38,999",
-//       stars: 4.2,
-//       review: "33,347",
-//       bestof: "mobileallbest",
-//     },
-//     {
-//       id: "4",
-//       name: "APPLE iPhone 12 (White, 64 GB)",
-//       image: "https://i.postimg.cc/FFCwqFM1/APPLE-i-Phone-12-White-64-GB.webp",
-//       price: "41,999",
-//       cross: "49,999",
-//       stars: 4.6,
-//       review: "2,03,739",
-//       bestof: "mobileallbest",
-//     },
-//     {
-//       id: "5",
-//       name: "vivo V29 5G (Red, 256 GB) ",
-//       image: "https://i.postimg.cc/FKBGs1NB/vivo-V29-5-G-Red-256-GB.webp",
-//       price: "36,999",
-//       cross: "39,999",
-//       stars: 4.1,
-//       review: "539",
-//       type: "above20k",
-//       bestof: "mobileallbest",
-//     },
-//     {
-//       id: "6",
-//       name: "APPLE iPhone 14 (Purple, 128 GB)",
-//       image:
-//         "https://i.postimg.cc/PrxvXyV2/APPLE-i-Phone-14-Purple-128-GB.webp",
-//       price: "61,999",
-//       cross: "69,999",
-//       stars: 4.6,
-//       review: "2,54,139",
-//       type: "above20k",
-//       bestof: "mobileallbest",
-//     },
-//   ]);
-
-//   return (
-//     <>
-//       <Storedata.Provider value={[data, setdata]}>
-//         {props.children}
-//       </Storedata.Provider>
-//     </>
-//   );
-// }
-
-// export default Store;
